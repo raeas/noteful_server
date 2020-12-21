@@ -3,7 +3,7 @@ const logger = require('../logger')
 //const data or store? (NotesService!!!)
 const FoldersService = require('./folders-service')
 const path = require('path')
-const { post } = require('../notes/notes-router')
+// const { post } = require('../notes/notes-router')
 const foldersRouter = express.Router()
 const bodyParser = express.json()
 
@@ -77,7 +77,40 @@ foldersRouter
       .catch(next)
   })
   .get((req, res) => {
-    res.json(folder)
+    res.json(res.folder)
+  })
+  .delete((req, res, next) => {
+    FoldersService.deleteFolder(
+      req.app.get('db'),
+      req.params.folder_id
+    )
+    .then(numRowsAffected => {
+      res.status(204).end()
+    })
+    .catch(next)
+  })
+  .patch(bodyParser, (req, res, next) => {
+    const { name } = req.body
+    const folderToUpdate = { name }
+
+    const numberOfValues = Object.values(folderToUpdate).filter(Boolean).length
+      if (numberOfValues === 0) {
+        return res.status(400).json({
+          error: {
+            message: `Request body must contain 'name'.`
+          }
+        })
+      }
+
+      FoldersService.updateFolder(
+        req.app.get('db'),
+        req.params.folder_id,
+        folderToUpdate
+      )
+      .then(numRowsAffected => {
+        res.status(204).end()
+      })
+      .catch(next)
   })
 
 module.exports = foldersRouter

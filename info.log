@@ -10,3 +10,10 @@
 {"message":"Folder with id 10 not found.","level":"error"}
 {"message":"Folder with id 10 not found.","level":"error"}
 {"message":"Folder with id 10 not found.","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /favicon.ico","level":"error"}
+{"message":"Unauthorized request to path: /folders","level":"error"}
+{"message":"Unauthorized request to path: /favicon.ico","level":"error"}
+{"message":"Folder with id 5 created.","level":"info"}
+{"message":"Note with id 17 created.","level":"info"}
+{"message":"Note with id 1 not found.","level":"error"}
