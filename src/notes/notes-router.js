@@ -7,6 +7,14 @@ const path = require('path')
 const notesRouter = express.Router()
 const bodyParser = express.json()
 
+const serializeNote = note => ({
+  id: note.id,
+  name: note.name,
+  content: note.content,
+  modified: note.modified,
+  folder_id: note.folder_id
+})
+
 //add GET endpoints
 //add POST endpoints - use experss.json() to parse response body
 ///1. get data from the body
@@ -27,7 +35,7 @@ notesRouter
   .get((req, res, next) => {
     NotesService.getAllNotes(req.app.get('db'))
       .then(notes => {
-        res.json(notes)
+        res.json(notes.map(serializeNote))
       })
       .catch(next)
   })
@@ -36,7 +44,7 @@ notesRouter
       if(!req.body[field]) {
         logger.error(`${field} is required`)
         return res.status(400).send({
-          error: { message: `'${field}' is required`}
+          error: { message: `Missing '${field}' in request body`}
         })
       }
     }
@@ -53,7 +61,7 @@ notesRouter
         res
           .status(201)
           .location(path.posix.join(req.originalUrl) + `/${note.id}`)
-          .json(note)
+          .json(serializeNote(note))
       })
       .catch(next)
   })
@@ -76,7 +84,7 @@ notesRouter
       .catch(next)
   })
   .get((req, res) => {
-    res.json(res.note)
+    res.json(serializeNote(res.note))
   })
   .delete((req, res, next) => {
     NotesService.deleteNote(
@@ -96,7 +104,7 @@ notesRouter
       if (numberOfValues === 0) {
         return res.status(400).json({
           error: {
-            message: `Request body must contain 'name' or 'content'.`
+            message: `Request body must contain either 'name' or 'content'`
           }
         })
       }

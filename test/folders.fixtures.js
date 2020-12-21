@@ -1,4 +1,4 @@
-function makesFoldersArray() {
+function makeFoldersArray() {
   return [
     {
       id: 1,
@@ -14,3 +14,5 @@ function makesFoldersArray() {
     }
   ]
 }
+
+module.exports = { makeFoldersArray } 

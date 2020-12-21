@@ -17,3 +17,357 @@
 {"message":"Folder with id 5 created.","level":"info"}
 {"message":"Note with id 17 created.","level":"info"}
 {"message":"Note with id 1 not found.","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 9 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 1 not found.","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 6 created.","level":"info"}
+{"message":"Folder with id 1 not found.","level":"error"}
+{"message":"Folder with id 1 not found.","level":"error"}
+{"message":"Note with id 18 created.","level":"info"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}

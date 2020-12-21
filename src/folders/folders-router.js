@@ -7,6 +7,11 @@ const path = require('path')
 const foldersRouter = express.Router()
 const bodyParser = express.json()
 
+const serializeFolder = folder => ({
+  id: folder.id,
+  name: folder.name
+})
+
 
 //add GET endpoints
 //add POST endpoints - use experss.json() to parse response body
@@ -28,7 +33,7 @@ foldersRouter
   .get((req, res, next) => {
     FoldersService.getAllFolders(req.app.get('db'))
       .then(folders => {
-        res.json(folders)
+        res.json(folders.map(serializeFolder))
       })
       .catch(next)
   })
@@ -37,7 +42,7 @@ foldersRouter
       if(!req.body[field]) {
         logger.error(`${field} is required`)
         return res.status(400).send({
-          error: { message: `'${field}' is required`}
+          error: { message: `Missing '${field}' in request body`}
         })
       }
     }
@@ -54,7 +59,7 @@ foldersRouter
         res
           .status(201)
           .location(path.posix.join(req.originalUrl) + `/${folder.id}`)
-          .json(folder)
+          .json(serializeFolder(folder))
       })
       .catch(next)
   })
@@ -77,7 +82,7 @@ foldersRouter
       .catch(next)
   })
   .get((req, res) => {
-    res.json(res.folder)
+    res.json(serializeFolder(res.folder))
   })
   .delete((req, res, next) => {
     FoldersService.deleteFolder(
@@ -97,7 +102,7 @@ foldersRouter
       if (numberOfValues === 0) {
         return res.status(400).json({
           error: {
-            message: `Request body must contain 'name'.`
+            message: `Request body must contain 'name'`
           }
         })
       }
