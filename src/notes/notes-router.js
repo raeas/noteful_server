@@ -1,6 +1,7 @@
 const express = require('express')
 const logger = require('../logger')
 //const data or store? (NotesService!!!)
+const NotesService = require('./notes-service')
 
 const notesRouter = express.Router()
 const bodyParser = express.json()
@@ -22,8 +23,12 @@ const bodyParser = express.json()
 
 notesRouter
   .route('/notes')
-  .get((req, res) => {
-
+  .get((req, res, next) => {
+    NotesService.getAllNotes(req.app.get('db'))
+      .then(folders => {
+        res.json(folders)
+      })
+      .catch(next)
   })
   .post(bodyParser, (req, res) => {
 
@@ -38,4 +43,4 @@ notesRouter
 
   })
 
-module.export = notesRouter
+module.exports = notesRouter

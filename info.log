@@ -1,0 +1,12 @@
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Folder with id 4 created.","level":"info"}
+{"message":"Folder with id 10 not found.","level":"error"}
+{"message":"Folder with id 10 not found.","level":"error"}
+{"message":"Folder with id 10 not found.","level":"error"}
