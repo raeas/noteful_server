@@ -1,9 +1,7 @@
 const express = require('express')
 const logger = require('../logger')
-//const data or store? (NotesService!!!)
 const FoldersService = require('./folders-service')
 const path = require('path')
-// const { post } = require('../notes/notes-router')
 const foldersRouter = express.Router()
 const bodyParser = express.json()
 
@@ -11,22 +9,6 @@ const serializeFolder = folder => ({
   id: folder.id,
   name: folder.name
 })
-
-
-//add GET endpoints
-//add POST endpoints - use experss.json() to parse response body
-///1. get data from the body
-///   a. const { a, b, c } = req.body  
-///2. validate "a", "b", "c"
-///   b.   if (!a) {
-///         logger.error('text of error')
-///           return res
-///           .status(400)
-///         .send('invalid data')         
-///         }
-///3. if data is valid, to this....
-//add DELETE endpoints
-//module.exports = abcRouter
 
 foldersRouter
   .route('/api/folders')
