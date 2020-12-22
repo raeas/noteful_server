@@ -148,8 +148,6 @@ describe('Folders Endpoints', function() {
           .insert(testFolders)
           .then(() => {
             return db
-              // .into('blogful_articles')
-              // .insert(testArticles)
           })
       })
     
