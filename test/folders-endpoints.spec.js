@@ -50,32 +50,6 @@ describe('Folders Endpoints', function() {
         .expect(200, testFolders)
       })
     })
-  //1C - CONTEXT to folders endpoint - Malicious Folder
-  // context(`Given an XSS attack article`, () => {
-  //   const { maliciousArticle, expectedArticle } = makeMaliciousArticle()
-  //   const testUsers = makeUsersArray()
-
-  //   beforeEach('insert malicious article', () => {
-  //     return db
-  //       .into('blogful_users')
-  //       .insert(testUsers)
-  //       .then(() => {
-  //         return db
-  //         .into('blogful_articles')
-  //         .insert([ maliciousArticle ])
-  //       })
-  //   })
-
-  //   it('removes XSS attach content', () => {
-  //     return supertest(app)
-  //       .get(`/api/articles`)
-  //       .expect(200)
-  //       .expect(res => {
-  //         expect(res.body[0].title).to.eql(expectedArticle.title)
-  //         expect(res.body[0].content).to.eql(expectedArticle.content) 
-  //       })
-  //   })
-  // })
   })
 //2 DESCRIBE - folders by id    
   describe(` 2 GET /api/folders/:folder_id`, () => {
@@ -109,41 +83,9 @@ describe('Folders Endpoints', function() {
         .expect(200, expectedFolder)
       })
     })
-//2C CONTEXT - to folders by id - given there are malicious folders in db
-    // context(`Given an XSS attack article`, () => {
-    //   const { maliciousArticle, expectedArticle } = makeMaliciousArticle()
-    //   const testUsers = makeUsersArray()
-
-    //     beforeEach('insert malicious article', () => {
-    //       return db
-    //         .into('blogful_users')
-    //         .insert(testUsers)
-    //         .then(() => {
-    //           return db
-    //             .into('blogful_articles')
-    //             .insert([ maliciousArticle ])
-    //         })
-    //     })
-      
-    //     it('removes XSS attack content', () => {
-    //       return supertest(app)
-    //         .get(`/api/articles/${maliciousArticle.id}`)
-    //         .expect(200)
-    //         .expect(res => {
-    //           expect(res.body.title).to.eql(expectedArticle.title)
-    //           expect(res.body.content).to.eql(expectedArticle.content)
-    //         })
-    //       })
-    //     })
   })
 //3 DESCRIBE - POST folders by id  
   describe(` 3 POST /api/folders`, () => {
-
-    // beforeEach('insert malicious article', () => {
-    //   return db
-    //     .into('blogful_users')
-    //     .insert(testUsers)
-    // })
 
     it(`creates a folder, responding with 201 and the new folder`,  function() {
       this.retries(3)
@@ -184,18 +126,6 @@ describe('Folders Endpoints', function() {
         })
       })
     })
-
-    // it('removes XSS attack content from response', () => { 
-    //   const { maliciousArticle, expectedArticle } = makeMaliciousArticle()
-    //   return supertest(app)
-    //   .post(`/api/articles`)
-    //   .send(maliciousArticle)
-    //   .expect(201)
-    //   .expect(res => {
-    //     expect(res.body.title).to.eql(expectedArticle.title)
-    //     expect(res.body.content).to.eql(expectedArticle.content)
-    //   })
-    // })
   })
 //4 DESCRIBE - DELETE folders by id  
   describe(`4 DELETE /api/folders/:folder_id`, () => {
