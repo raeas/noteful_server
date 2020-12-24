@@ -371,3 +371,79 @@
 {"message":"content is required","level":"error"}
 {"message":"Note with id 123456 not found.","level":"error"}
 {"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/123456","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/2","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/articles/123456","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/2","level":"error"}
+{"message":"Unauthorized request to path: /api/articles/123456","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/2","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/2","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/2","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes/123456","level":"error"}
+{"message":"Unauthorized request to path: /api/notes/2","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes/123456","level":"error"}
+{"message":"Unauthorized request to path: /api/notes/2","level":"error"}
+{"message":"Unauthorized request to path: /api/notes/123456","level":"error"}
+{"message":"Unauthorized request to path: /api/notes/2","level":"error"}
+{"message":"Unauthorized request to path: /api/notes/2","level":"error"}
+{"message":"Unauthorized request to path: /api/notes/2","level":"error"}
+{"message":"Folder with id 123456 not found.","level":"error"}
+{"message":"Folder with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Note with id 123456 not found.","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/undefined","level":"error"}
+{"message":"Unauthorized request to path: /api/undefined","level":"error"}
+{"message":"Unauthorized request to path: /notes","level":"error"}
+{"message":"Unauthorized request to path: /notes/undefined","level":"error"}
+{"message":"Unauthorized request to path: /notes/undefined","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /favicon.ico","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /favicon.ico","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Note with id 21 created.","level":"info"}
+{"message":"Unauthorized request to path: /notes","level":"error"}
+{"message":"Unauthorized request to path: /notes","level":"error"}
+{"message":"Note with id 24 created.","level":"info"}
+{"message":"Note with id 25 created.","level":"info"}
+{"message":"Folder with id 8 created.","level":"info"}
+{"message":"Note with id 26 created.","level":"info"}
+{"message":"Folder with id 9 created.","level":"info"}
+{"message":"Note with id 27 created.","level":"info"}

@@ -81,9 +81,8 @@ notesRouter
     .catch(next)
   })
   .patch(bodyParser, (req, res, next) => {
-    const { name, content } = req.body
-    const noteToUpdate = { name, content }
-
+    const { name, content, modified, folder_id } = req.body
+    const noteToUpdate = { name, content, modified, folder_id }
     const numberOfValues = Object.values(noteToUpdate).filter(Boolean).length
       if (numberOfValues === 0) {
         return res.status(400).json({
